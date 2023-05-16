@@ -44,8 +44,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
     <form method="post">
-        <label>Height (in cm): <input type="text" name="height"></label>
-        <label>Weight (in kg): <input type="text" name="weight"></label>
+        <label for="height">Height (in cm): <input type="text" name="height" id='height></label>
+        <label for='weight'>Weight (in kg): <input type="text" name="weight" id='weight'></label>
         <input type="submit" value="Calculate BMI">
     </form>
 
